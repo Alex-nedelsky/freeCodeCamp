@@ -1,7 +1,21 @@
 body {
-    font-family: sans-serif;
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-}h1,
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1,
 h2,
 p {
     text-align: center;
@@ -16,17 +30,7 @@ p {
     max-width: 500px;
 }
 
-.item p {
-    display: inline-block;
-}
-
-.flavor,
-.dessert {
-    text-align: left;
-    width: 75%;
-}
-
-.price {
-    text-align: right;
-    width: 25%
+hr {
+    height: 3px;
+    background-color: brown;
 }
